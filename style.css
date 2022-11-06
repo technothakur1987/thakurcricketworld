@@ -1,0 +1,553 @@
+/*#181733*/
+/*navbar*/
+
+/*fnt for logo*/
+@import url('https://fonts.googleapis.com/css2?family=Arizonia&display=swap');
+.Mynav{
+    background-color:black!important ;
+    height: auto!important;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
+    z-index: 1;
+}
+.myLogo{
+    height:5rem;
+    border-radius: 50%;
+    border-top: 8px double yellow;
+    border-left: 8px double red;
+
+}
+
+.navbar-nav{
+    flex-wrap: wrap;
+    border-top: 2px solid rgb(255, 255, 255)!important;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    width: 100%;
+
+    
+
+}
+.dropdown-menu[data-bs-popper] {
+    top:100%;
+    left: -50%;
+    margin-top: 0.125rem;
+    
+}
+
+.navbar-brand{
+    flex-basis: 30%;
+    font-family: 'Arizonia', cursive;
+    
+    
+    
+    
+}
+.navbar-brand span{
+    opacity: 0.7;
+    
+   
+}
+.collapse{
+    flex-direction: column;
+    border-left: 5px double rgb(255, 255, 255,0.5)!important;
+    height: 100%!important;
+    flex-basis: 70%;
+   
+    
+}
+.navbar-collapse{
+    flex-grow: 0;
+    align-items: end;
+   
+}
+.customNav ul{
+    display: flex;
+    align-items:stretch;
+    justify-content: space-between;
+    width: auto;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 0!important;
+    
+    
+    
+}
+.customNav ul li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    list-style: none;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+    
+}
+.customNav ul li:active, .customNav ul li:hover{
+    color: #FFA500!important;
+    
+}
+.nav-link:active, .nav-link:hover {
+    color: #FFA500!important;
+   
+}
+.navbar-toggler{
+    background-color: #FFA500!important;
+    padding: 0!important;
+    border: 10px solid coral!important;
+
+}
+.navbar-toggler-icon{
+    background-color: #FFA500!important;
+   
+    
+}
+
+
+
+
+
+
+
+body{
+   
+   position:relative;
+    min-height: 100vh!important;
+
+    
+}
+
+
+
+
+/*Here is css for main body starts */
+
+
+/*videoBannerSection*/
+.videoBannerSection{
+    
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index:-1;
+    border-top: 20px solid black;
+    border-bottom: 20px solid black;
+   
+   
+}
+#myVideo{
+    position: absolute;
+  right: 0;
+  bottom: 0;
+  
+  
+ 
+  min-width: 100%;
+  filter: brightness(50%);
+ 
+ 
+  
+  
+  
+
+}
+.videoBannerSection .content{
+    position:absolute;
+    left:5%;
+    top:10%;
+    width: 50vw;
+    color: white;
+    
+}
+.videoBannerSection .content h1{
+    font-size: 4rem;
+    font-weight: 900;
+
+}
+.videoBannerSection .content p{
+    font-size: 1.5rem;
+    font-weight: 600;
+
+}
+
+/*who we are*/
+
+
+.whoWeAre .row{
+    --bs-gutter-x: 0rem;
+    
+}
+.whoWeAre1 p{
+    
+   padding-right: 2rem;
+    
+    
+    
+}
+.whoWeAre2 h1{
+    color: #181733;
+    font-weight: 900;
+    font-size: 2.7rem!important;
+}
+.whoWeAre2 p{
+    
+    font-weight: 600;
+    
+}
+
+
+/*ourProgrammes*/
+
+
+.ourProgrammes{
+    height: 100vh;
+    background-color: rgb(243, 235, 236);
+   
+
+}
+
+.ourProgrammes .row{
+    --bs-gutter-x: 0rem;
+   
+
+}
+.ourProgrammes .card{
+    background-color: rgb(243, 235, 236);
+    border: none;
+   
+    
+}
+.ourProgrammes a{
+    color: #FFA500;
+}
+.ourProgrammes a:hover{
+    color: black;
+}
+
+
+
+
+/*our blog*/
+.ourBlog{
+    height:90vh;
+    background-color: white;
+}
+.ourBlog .row{
+    --bs-gutter-x: 0rem;
+
+}
+.ourBlog .card{
+    border: none;
+
+}
+.ourBlog img{
+    min-height: 18rem;
+    
+   
+}
+.ourBlog a{
+    color: #FFA500;
+}
+.ourBlog a:hover{
+    color: black;
+}
+
+
+/*getInTouch*/
+
+.getInTouch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: space-evenly;
+    padding: 5rem 3rem;
+    background-color: rgb(243, 235, 236);
+}
+.getInTouch p{
+    padding: 1rem 5rem;
+}
+.getInTouch a{
+    text-decoration: none;
+    color: white;
+    background-color: #FFA500;
+    padding: 1rem 2.5rem;
+    border-radius: 20px;
+    font-weight: 800;
+}
+.getInTouch a:hover{
+   opacity: 0.8;
+    cursor: pointer;
+
+}
+
+
+/*Our Partners*/
+.ourPrt{
+    height: auto;
+   
+    
+}
+.ourPrt .row{
+    
+    --bs-gutter-x: 0rem;
+
+   
+   
+    
+}
+.ourprthr{
+    color: #FFA500;
+    height: 0.25rem!important;
+   
+
+}
+.ourPrt h1{
+   
+    font-weight: 700;
+    font-size: 2.7rem!important;
+    
+}
+
+
+/*Footer*/
+.footer{
+    border-top: 5px solid #FFA500;
+    background-color: #FFA500!important;
+
+}
+.footer a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*mediaqueris*/
+
+
+@media (min-width: 0px) and (max-width: 390px) {
+
+
+    .mqspan{
+        font-size: 0.5rem!important;
+    }
+    .contactUsForm{
+        height: 80vh;
+        margin-bottom: 3rem;
+        border-top-left-radius: 0%;
+        z-index: 1;
+        
+    }
+    #myVideo{
+        height: 100vh;
+        
+     }
+     .videoBannerSection .content{
+        width: 80%;
+        height: fit-content;
+        
+        
+        
+    }
+    .videoBannerSection .content h1{
+        font-size: 3rem;
+          
+    }
+    .videoBannerSection .content p{
+        font-size: 1.2rem;
+     }
+     .whoWeAre1 h1{
+    
+       font-size: 3rem;
+         
+         
+         
+     }
+     .whoWeAre1 p{
+    
+      font-size: larger;
+         
+         
+         
+     }
+     .ourProgrammes{
+        height: fit-content;
+       
+    }
+    .ourProgrammes h1{
+        font-size: 3rem;
+    }
+    
+    .ourProgrammes .card{
+       
+        border: none;
+        width: 100vw!important;
+        padding-left: 2.5rem!important;
+        padding-right: 2.5rem!important;
+        
+
+        
+    }
+    .ourBlog{
+        height:fit-content;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    }
+    .ourBlog .col-md-6{
+       
+          
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+           
+        }
+    .ourBlog .card{
+       
+        border: none;
+        width: 100vw!important;
+        padding: 0 2.5  rem;
+       
+    }
+    .getInTouch{
+        padding: 5rem 0rem;
+        
+    }
+    .getInTouch p{
+        padding: 1rem 2.5rem;
+    }
+    .footer h6{
+        font-size: larger!important;
+    }
+    
+    
+ }
+ @media (min-width: 391px) and (max-width: 575.98px) {
+
+
+    
+    .contactUsForm{
+        height: 80vh;
+        margin-bottom: 3rem;
+        border-top-left-radius: 0%;
+        z-index: 1;
+        
+    }
+    #myVideo{
+        height: 100vh;
+        
+     }
+     .videoBannerSection .content{
+        width: 80%;
+        height: fit-content;
+        
+        
+        
+    }
+    .videoBannerSection .content h1{
+        font-size: 3rem;
+          
+    }
+    .videoBannerSection .content p{
+        font-size: 1.5rem;
+     }
+     .whoWeAre1 h1{
+    
+        font-size: 3rem;
+     
+      }
+      .whoWeAre1 p{
+    
+        font-size: larger;
+           
+           
+           
+       }
+       .ourProgrammes{
+        height: fit-content;
+       
+    }
+    .ourProgrammes h1{
+        font-size: 3rem;
+    }
+    
+    .ourProgrammes .card{
+       
+        border: none;
+        width: 100vw!important;
+        padding-left: 2.5rem!important;
+        padding-right: 2.5rem!important;
+       
+        
+        
+
+        
+    }
+    .ourBlog{
+        height:fit-content;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    }
+    .ourBlog .col-md-6{
+       
+          
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+       
+    }
+    .getInTouch{
+        padding: 3rem 0rem;
+        
+    }
+    .getInTouch p{
+        padding: 1rem 2.5rem;
+    }
+    .footer h6{
+        font-size: larger!important;
+    }
+    
+    
+       
+ }
+    
+
+
+@media (max-width: 1200px) { 
+    .customNav{
+        display: none;
+    }
+    .collapse{
+         border-left: none!important;
+         }
+         .navbar-nav{
+            border-top:none!important;
+         }
+ }
+
+
